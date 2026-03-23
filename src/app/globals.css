@@ -46,75 +46,121 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  /* Sonx custom colors */
+  --color-action: var(--action);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-card: var(--surface-card);
+  --color-text-sub: var(--text-sub);
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  /* Sonx Dark Theme - Always dark */
+  --background: #030303;
+  --foreground: #FAFAFA;
+  --card: #181D31;
+  --card-foreground: #FAFAFA;
+  --popover: #0F1220;
+  --popover-foreground: #FAFAFA;
+  --primary: #C94BFF;
+  --primary-foreground: #FAFAFA;
+  --secondary: #14192A;
+  --secondary-foreground: #B7ACD3;
+  --muted: #14192A;
+  --muted-foreground: #B7ACD3;
+  --accent: #C94BFF;
+  --accent-foreground: #FAFAFA;
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.10);
+  --ring: rgba(201, 75, 255, 0.52);
+  --chart-1: #E563F1;
+  --chart-2: #C95BF5;
+  --chart-3: #9A57FF;
+  --chart-4: #7B3DFF;
+  --chart-5: #5B4DFF;
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #0F1220;
+  --sidebar-foreground: #FAFAFA;
+  --sidebar-primary: #C94BFF;
+  --sidebar-primary-foreground: #FAFAFA;
+  --sidebar-accent: #14192A;
+  --sidebar-accent-foreground: #B7ACD3;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: rgba(201, 75, 255, 0.52);
+  /* Sonx custom */
+  --action: #C94BFF;
+  --surface: #0F1220;
+  --surface-elevated: #14192A;
+  --surface-card: #181D31;
+  --text-sub: #B7ACD3;
+  /* Gradients */
+  --gradient-primary-start: #E563F1;
+  --gradient-primary-mid: #C95BF5;
+  --gradient-primary-end: #9A57FF;
+  --gradient-card-start: #5B102E;
+  --gradient-card-mid: #2D0F57;
+  --gradient-card-end: #091A4A;
+  /* Glow effects */
+  --border-glow: rgba(201, 75, 255, 0.52);
+  --border-soft: rgba(201, 75, 255, 0.26);
+  --glow-pink: rgba(233, 79, 228, 0.28);
+  --glow-blue: rgba(123, 61, 255, 0.22);
+  --ambient-glow-primary: rgba(194, 78, 255, 0.30);
+  --ambient-glow-secondary: rgba(98, 73, 255, 0.24);
+  --ambient-glow-tertiary: rgba(43, 130, 255, 0.18);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --background: #030303;
+  --foreground: #FAFAFA;
+  --card: #181D31;
+  --card-foreground: #FAFAFA;
+  --popover: #0F1220;
+  --popover-foreground: #FAFAFA;
+  --primary: #C94BFF;
+  --primary-foreground: #FAFAFA;
+  --secondary: #14192A;
+  --secondary-foreground: #B7ACD3;
+  --muted: #14192A;
+  --muted-foreground: #B7ACD3;
+  --accent: #C94BFF;
+  --accent-foreground: #FAFAFA;
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.10);
+  --ring: rgba(201, 75, 255, 0.52);
+  --chart-1: #E563F1;
+  --chart-2: #C95BF5;
+  --chart-3: #9A57FF;
+  --chart-4: #7B3DFF;
+  --chart-5: #5B4DFF;
+  --sidebar: #0F1220;
+  --sidebar-foreground: #FAFAFA;
+  --sidebar-primary: #C94BFF;
+  --sidebar-primary-foreground: #FAFAFA;
+  --sidebar-accent: #14192A;
+  --sidebar-accent-foreground: #B7ACD3;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: rgba(201, 75, 255, 0.52);
+  --action: #C94BFF;
+  --surface: #0F1220;
+  --surface-elevated: #14192A;
+  --surface-card: #181D31;
+  --text-sub: #B7ACD3;
+  --gradient-primary-start: #E563F1;
+  --gradient-primary-mid: #C95BF5;
+  --gradient-primary-end: #9A57FF;
+  --gradient-card-start: #5B102E;
+  --gradient-card-mid: #2D0F57;
+  --gradient-card-end: #091A4A;
+  --border-glow: rgba(201, 75, 255, 0.52);
+  --border-soft: rgba(201, 75, 255, 0.26);
+  --glow-pink: rgba(233, 79, 228, 0.28);
+  --glow-blue: rgba(123, 61, 255, 0.22);
+  --ambient-glow-primary: rgba(194, 78, 255, 0.30);
+  --ambient-glow-secondary: rgba(98, 73, 255, 0.24);
+  --ambient-glow-tertiary: rgba(43, 130, 255, 0.18);
 }
 
 @layer base {
@@ -123,8 +169,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'UI Sans Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
   html {
-    @apply font-sans;
+    font-family: 'UI Sans Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 }
