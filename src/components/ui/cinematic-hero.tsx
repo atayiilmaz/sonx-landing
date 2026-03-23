@@ -58,6 +58,8 @@ const INJECTED_STYLES = `
       filter:
           drop-shadow(0px 10px 20px rgba(201, 75, 255, 0.30))
           drop-shadow(0px 2px 4px rgba(98, 73, 255, 0.24));
+      line-height: 1.15;
+      padding-bottom: 0.05em;
   }
 
   @keyframes gradient-shift {
@@ -75,6 +77,8 @@ const INJECTED_STYLES = `
       filter:
           drop-shadow(0px 12px 24px rgba(0,0,0,0.8))
           drop-shadow(0px 4px 8px rgba(0,0,0,0.6));
+      line-height: 1.1;
+      padding-bottom: 0.05em;
   }
 
   /* Deep Physical Card with Animated Sonx Gradient */
