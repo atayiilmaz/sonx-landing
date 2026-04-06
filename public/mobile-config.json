@@ -1,0 +1,14 @@
+{
+  "title": "Update required",
+  "message": "A newer version of Sonx is required to continue.",
+  "ios": {
+    "minBuild": 1,
+    "latestVersion": "1.1.2",
+    "storeUrl": "https://apps.apple.com/us/app/ai-song-music-generator-sonx/id6757523434"
+  },
+  "android": {
+    "minBuild": 1,
+    "latestVersion": "1.1.2",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.app.sonx"
+  }
+}
